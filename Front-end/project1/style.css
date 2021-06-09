@@ -1,0 +1,371 @@
+.bg-color {
+	background-image: linear-gradient(#d01d3b, #d36079);
+	border-radius: 8px;
+	width: 70%;
+	margin: -8px auto 0;
+}
+
+#header {
+	/* margin:0 auto; */
+}
+
+#body {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.menu {
+	height: 40px;
+	width: 80px;
+	border-radius: 10px 10px 0 0;
+	margin-top: 12px;
+	/* position: fixed; */
+	background-color: white;
+	display: inline-block;
+}
+
+.text {
+	margin-top: 7px;
+	font-size: medium;
+	font-weight: bolder;
+	color: #d01d3b;
+	text-align: center;
+}
+
+.navi {
+	margin-top: 15px;
+	margin-right: 30px;
+	color: white;
+	font-size: small;
+	float: right;
+}
+
+.navi a {
+	color: white;
+	text-decoration: none;
+}
+.navi a:hover {
+	text-decoration: none;
+}
+
+#game-info {
+	margin-top: 60px;
+}
+.game-area {
+	border: rgb(205, 205, 205) solid;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 40%;
+	height: 180px;
+	margin-left: 6%;
+	float: left;
+}
+
+.game-area dt {
+	float: left;
+	margin-top: 24px;
+	margin-left: 10px;
+}
+
+.game-area dd {
+	float: left;
+	width: 50%;
+	margin-left: -40px;
+	margin-top: 6px;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+.btn-enter {
+	background-image: linear-gradient(rgb(131, 198, 215), rgb(50, 101, 152));
+	border-width: 1px;
+	border-color: rgb(50, 101, 152);
+	color: white;
+	font-size: 4px;
+	height: 26px;
+}
+.btn-enter:hover {
+	background-image: linear-gradient(rgb(161, 208, 219), rgb(50, 101, 152));
+}
+
+.border {
+	border: rgb(205, 205, 205) solid;
+	border-radius: 10px;
+	border-width: 2px;
+}
+
+.game-list {
+	margin-top: 20px;
+	width: 180px;
+	height: 210px;
+	/* border: rgb(205, 205, 205) solid;
+	border-radius: 10px;
+	border-width: 2px; */
+	float: left;
+}
+
+.gList {
+	margin: auto 0;
+	height: 100%;
+}
+
+.gList li {
+	float: left;
+	/* background-image: linear-gradient(white, rgb(241, 239, 240)); */
+	background-image: url("images/游戏列表灰色渐变.jpg");
+	width: 128%;
+	height: 30px;
+	margin-left: -40px;
+	list-style: none;
+}
+.gList li:hover {
+	/* background-image: linear-gradient(
+		to right,
+		rgb(233, 158, 104),
+		rgb(196, 81, 29)
+	); */
+	border-radius: 5px;
+	background-image: url("images/游戏列表鼠标移入的渐变.jpg");
+}
+
+.gList a,
+.news-list a {
+	text-decoration: none;
+	font-size: small;
+}
+
+.gTxt {
+	color: black;
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 34px;
+}
+
+.banner img {
+	float: left;
+	width: 560px;
+	height: 210px;
+	margin-top: 20px;
+	margin-left: 40px;
+	border-radius: 10px;
+}
+
+.login {
+	float: left;
+	width: 240px;
+	height: 210px;
+	margin-left: 24px;
+	margin-top: 20px;
+}
+
+#login-text {
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(118, 115, 115);
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+#login-input {
+	margin-top: 20px;
+	margin-left: 5%;
+}
+
+#user,
+#passwd {
+	font-size: 14px;
+	margin-top: 10px;
+	width: 65%;
+	border: rgb(205, 205, 205) solid;
+	border-radius: 2px;
+	border-width: 1px;
+}
+
+#btnsubmit {
+	display: block;
+	margin: 10px auto 0;
+	width: 64px;
+	height: 25px;
+	border: none;
+	background-image: url(images/btnLogin.jpg);
+}
+
+#btnsubmit:active {
+	opacity: 0.7;
+}
+
+.login-regi {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 36px;
+	text-decoration: none;
+}
+
+.game-show {
+	float: left;
+	margin-top: 20px;
+	width: 780px;
+	height: 280px;
+}
+
+.show-title {
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	float: left;
+	/* margin-top: -15px; */
+	background-image: url(images/titleBg.jpg);
+}
+
+.ti1 {
+	display: block;
+	line-height: 30px;
+	color: rgb(151, 12, 12);
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+.news {
+	float: left;
+	width: 240px;
+	height: 280px;
+	margin-left: 24px;
+	margin-top: 20px;
+}
+
+.news-list {
+	float: left;
+	margin: auto 0;
+	height: 100%;
+}
+
+.news-list ul {
+	margin-top: 0px;
+}
+
+.news-list li {
+	list-style: none;
+	height: 34px;
+	width: 230px;
+	margin-left: -34px;
+	border-bottom: rgb(205, 205, 205) dashed;
+	border-width: 2px;
+}
+
+.game-show2 {
+	float: left;
+	margin-top: 20px;
+	width: 780px;
+	height: 400px;
+}
+
+.game1 {
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 140px;
+	height: 150px;
+	float: left;
+	text-align: center;
+}
+
+.game1 p {
+	font-size: 12px;
+	display: block;
+	line-height: 6px;
+	margin-top: 6px;
+}
+
+.weibo {
+	float: left;
+	width: 240px;
+	height: 200px;
+	margin-left: 24px;
+	margin-top: 10px;
+}
+
+.weibo img {
+	margin-top: 10px;
+}
+
+.game-video {
+	float: left;
+	width: 240px;
+	height: 230px;
+	margin-left: 24px;
+	margin-top: -20px;
+}
+
+.game-video ul {
+	margin-top: 30px;
+}
+
+.game-video li {
+	list-style: none;
+	height: 100px;
+	width: 114%;
+	margin-left: -34px;
+	margin-top: 0px;
+	border-bottom: rgb(205, 205, 205) dashed;
+	border-width: 2px;
+}
+
+.game-video img {
+	float: left;
+	margin-top: 5px;
+}
+
+.game-video a {
+	font-size: 12px;
+	width: 90px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 14px;
+	line-height: 20px;
+	word-wrap: break-word;
+	text-decoration: none;
+	color: rgb(20, 48, 175);
+}
+
+.footer {
+	float: left;
+	width: 100%;
+	height: 40px;
+	margin-top: 40px;
+}
+
+.footer a {
+	font-size: 12px;
+	line-height: 40px;
+	text-decoration: none;
+	margin-left: 8px;
+}
+
+.footer p {
+	font-size: 12px;
+	text-align: right;
+	color: grey;
+}
+
+.about1 {
+	float: left;
+	width: 38%;
+	height: 100%;
+}
+
+.about2 {
+	float: right;
+	width: 60%;
+	height: 100%;
+}
+
+#but1 {
+	position: fixed;
+	right: -80px;
+	top: 200px;
+}

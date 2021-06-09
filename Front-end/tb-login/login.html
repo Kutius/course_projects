@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>淘宝网 - 淘！我喜欢</title>
+	</head>
+	<body>
+		<div id="page">
+			<header id="header">
+				<div class="logo">
+					<h1>
+						<a
+							title="淘宝网"
+							class="logo-link"
+							href="//www.taobao.com"
+							><img
+								src="images/tblogo.png"
+								alt="logo"
+								width="60%"
+							/>
+						</a>
+					</h1>
+					<a
+						href="https://survey.taobao.com/survey/Q095thIx2"
+						class="link"
+					>
+						<img
+							src="images/message.png"
+							alt="message"
+							width="18px"
+							style="vertical-align: middle"
+						/>
+						"登录页面"改进建议
+					</a>
+				</div>
+			</header>
+
+			<div id="content">
+				<div class="login-bg"></div>
+				<div class="content-layout">
+					<div class="login-box">
+						<div id="container">
+							<p class="login-title1">密码登录</p>
+							<p class="login-title2">短信登录</p>
+							<img
+								src="images/qrcode.png"
+								alt="qrcode"
+								class="qrcode"
+								width="46%"
+							/>
+							<form id="login-form" name="myform" method="POST">
+								<div class="icon" align="center">
+									<img
+										src="images/用户.png"
+										alt=""
+										width="50%"
+									/>
+								</div>
+								<input
+									type="text"
+									class="user"
+									id="user"
+									placeholder="会员名/邮箱/手机号"
+								/>
+								<div class="icon" align="center">
+									<img
+										src="images/密码.png"
+										alt=""
+										width="50%"
+									/>
+								</div>
+								<input
+									type="password"
+									class="pwd"
+									id="pwd"
+									placeholder="请输入登录密码"
+								/>
+
+								<button
+									type="button"
+									class="login-btn"
+									id="login-btn"
+									onclick="window.location.href='main.html'"
+								>
+									登录
+								</button>
+							</form>
+							<div class="other-login">
+								<a href=""
+									><img
+										src="images/wb.png"
+										alt="wb"
+										width="16px"
+									/>微博登录</a
+								><a href=""
+									><img
+										src="images/zfb.png"
+										alt="zfb"
+										width="16px"
+									/>支付宝登录</a
+								>
+							</div>
+							<div class="login-choice">
+								<a href="">忘记密码</a><a href="">忘记用户名</a
+								><a href="">免费注册</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script type="text/javascript" src="validate.js"></script>
+</html>

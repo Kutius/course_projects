@@ -1,0 +1,183 @@
+body {
+	margin: 0px;
+}
+
+#header {
+	padding: 22px 0;
+	height: 88px;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 1200px;
+	margin: 0 auto;
+	height: 100%;
+	overflow: hidden;
+}
+
+.logo h1 {
+	display: block;
+	float: left;
+	margin-top: 0px;
+	width: 110px;
+	height: 44px;
+}
+
+.logo h1 .logo-link {
+	width: 72px;
+	height: 45px;
+}
+
+.logo .link {
+	float: right;
+	line-height: 44px;
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.logo .link:hover {
+	color: #ff4400;
+}
+
+#content {
+	width: 100%;
+	position: relative;
+}
+
+.login-bg {
+	background-image: url(https://gtms01.alicdn.com/tps/i1/TB1GTCYLXXXXXcHXpXXcoeQ2VXX-2500-600.jpg);
+	background-size: cover;
+	background-position: 50%;
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+}
+
+.content-layout {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 600px;
+	z-index: 2;
+	position: relative;
+}
+
+.login-box {
+	position: absolute;
+	top: 120px;
+	right: 60px;
+	width: 350px;
+	height: 350px;
+	background-color: rgb(233, 233, 242);
+}
+
+#container {
+	margin: 0 auto;
+	width: 300px;
+	min-height: 300px;
+	padding: 25px;
+	position: relative;
+}
+
+#container p {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#container .qrcode {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.login-title1 {
+	font-size: 16px;
+	color: #3c3c3c;
+	margin: 9px 10px 0 0;
+	font-weight: 700;
+	border-bottom: 2px solid #000;
+}
+
+.login-title2 {
+	font-size: 16px;
+	color: #3c3c3c;
+	margin: 9px 10px 0 0;
+	font-weight: 700;
+}
+
+#login-form {
+	margin: 0;
+	padding: 0;
+}
+
+#login-form .user {
+	width: 78%;
+	height: 36px;
+	border-style: none;
+	margin-left: 9px;
+	margin-top: 20px;
+	padding-left: 50px;
+}
+
+#login-form .pwd {
+	width: 78%;
+	height: 36px;
+	border-style: none;
+	margin-left: 9px;
+	margin-top: 20px;
+	padding-left: 50px;
+}
+
+.icon {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 34px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-color: rgb(204, 204, 204);
+}
+
+.icon img {
+	margin-top: 10px;
+	position: relative;
+}
+
+#container .login-btn {
+	background: #f40;
+	border: 1px solid #ff9000;
+	font-size: 16px;
+	color: #fff;
+	line-height: 42px;
+	border-radius: 3px;
+	width: 96%;
+	height: 42px;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+
+#container .login-btn:hover {
+	background-color: #f52b00;
+}
+
+#container .other-login a,
+#container .login-choice a {
+	font-size: 12px;
+	color: #6c6c6c;
+	margin-left: 10px;
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#container .other-login img {
+	vertical-align: middle;
+}
+
+.login-choice {
+	margin-top: 10px;
+	float: right;
+}
